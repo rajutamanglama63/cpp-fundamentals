@@ -118,18 +118,61 @@
 
 // user input
 
+// int main () {
+
+    //  std::string name;
+    //  int experience;
+
+    //  std::cout << "What is your name? ";
+    //  std::cin >> name;
+
+    //  std::cout << "Mention your experience. ";
+    //  std::cin >> experience;
+
+    //  std::cout << "Hello " << name << "!" << std::endl;
+    //  std::cout << "You have " << experience << " years of experience in tech field." << std::endl;
+
+
+
+    // to allow input with space in it we have to use getline() function
+//     std::string employee;
+//     int salary;
+
+//     std::cout << "Salary of employee. ";
+//     std::cin >> salary;
+
+//     std::cout << "Name of employee. ";
+//     std::getline(std::cin >> std::ws, employee);
+
+    
+
+//     std::cout << employee << " earn " << 12 * (double) salary << " per year." << std::endl;
+
+//     return 0;
+// }
+
+
+
+// useful math function in cpp
+
+#include<cmath>
 int main () {
 
-     std::string name;
-     int experience;
+    double x = 3.99;
+    double y = 3;
+    double z;
 
-     std::cout << "What is your name?";
-     std::cin >> name;
+    // z = std::max(x, y);
+    // z = std::min(x, y);
 
-     std::cout << "Mention your experience.";
-     std::cin >> experience;
+    // z = pow(2, 3);
+    // z = sqrt(81);
+    // z = abs(-24);
+    // z = round(x);
+    // z = ceil(x);
+    z = floor(x);
 
-     std::cout << "Hello " << name << "!" << std::endl;
-     std::cout << "You have " << experience << " years of experience in tech field." << std::endl;
+    std::cout << z << std::endl;
+
     return 0;
 }
