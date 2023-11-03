@@ -155,24 +155,49 @@
 
 // useful math function in cpp
 
-#include<cmath>
+// #include<cmath>
+// int main () {
+
+//     double x = 3.99;
+//     double y = 3;
+//     double z;
+
+//     // z = std::max(x, y);
+//     // z = std::min(x, y);
+
+//     // z = pow(2, 3);
+//     // z = sqrt(81);
+//     // z = abs(-24);
+//     // z = round(x);
+//     // z = ceil(x);
+//     z = floor(x);
+
+//     std::cout << z << std::endl;
+
+//     return 0;
+// }
+
+
+
+// if statements 
+// do something if condition is true. if not, then don't do it
+
 int main () {
 
-    double x = 3.99;
-    double y = 3;
-    double z;
+    int age;
 
-    // z = std::max(x, y);
-    // z = std::min(x, y);
+    std::cout << "Enter your age: ";
+    std::cin >> age;
 
-    // z = pow(2, 3);
-    // z = sqrt(81);
-    // z = abs(-24);
-    // z = round(x);
-    // z = ceil(x);
-    z = floor(x);
-
-    std::cout << z << std::endl;
-
+    if(age >= 100) {
+        std::cout << "You are too old to enter this site." << std::endl;
+    } else if(age >= 18) {
+        std::cout << "Welcome to the site." << std::endl;
+    } else if(age < 0) {
+        std::cout << "You haven't been born yet." << std::endl;
+    } else {
+        std::cout << "You are not old enough to visit this site." << std::endl;
+    }
     return 0;
 }
+
