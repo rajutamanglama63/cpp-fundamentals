@@ -26,6 +26,8 @@ int main () {
 
         temp = (temp -32) / 1.8;
         std::cout << "Temprature is: " << temp << " C" << std::endl;
+    } else {
+        std::cout << "Please enter in only C or F" << std::endl;
     }
 
 
