@@ -22,16 +22,13 @@ int main () {
             std::cout << "Your guess is low" << std::endl;
         } else if (guess > num) {
             std::cout << "Your guess is high" << std::endl;
-        } else if (tries == 3) {
-            std::cout << "You lose" << std::endl;
-            break;
         } else {
             std::cout << "Correct! you win with " << tries << " tries." << std::endl;
         }
     } while (guess != num);
 
 
-        std::cout << "************************************************************" << std::endl;
+        std::cout << "*************************************************************************" << std::endl;
 
     
     return 0;
