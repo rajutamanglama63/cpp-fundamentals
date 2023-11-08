@@ -2,6 +2,8 @@
 
 int main () {
 
+    // sizeof() = determines the size in bytes of a variable, data type, class, object etc
+
     std::string name = "Jura Mala";
     int number = 2;
     double grade = 4.0;
