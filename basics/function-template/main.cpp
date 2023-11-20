@@ -10,3 +10,6 @@ int main () {
     std::cout << max(1, 1.4) << std::endl;
     return 0;
 }
+
+// function template - describe what a function looks like.
+//                     Can be used to generate as many overloaded functions as needed each using different data types
